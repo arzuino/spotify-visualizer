@@ -23,6 +23,7 @@ _Due to limitations in the Spotify API, the max album art size is 600x600._
 2.  Install dependencies with `npm install`
 3.  Create a file called `.env` in the project root with the secrets (see below)
 4.  Run with `npm start`
+5.  Optional: Download the [Montserrat font from here](https://github.com/JulietaUla/Montserrat/raw/master/fonts/webfonts/Montserrat-Regular.woff2), rename it to Montserrat.woff2 and put it in the lib directory.
 
 ### .env secrets
 

@@ -38,6 +38,8 @@ body {
   position: absolute;
   left: calc(50vw - 320px);
   top: calc(50vh - 320px);
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  visibility: hidden;
 }
 
 * {
@@ -49,7 +51,8 @@ body {
   bottom: 7vh;
   width: 100vw;
   text-align: center;
-  opacity: 0;
+  visibility: hidden;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 #track-info>#title {
@@ -57,14 +60,14 @@ body {
   margin-bottom: 6px;
 }
 
-#myProgress {
+#progressBarParent {
   position: fixed;
   bottom: 0;
   width: 100vw;
-  opacity: 0;
+  visibility: hidden;
 }
 
-#myBar {
+#progressBar {
   width: 0%;
   height: 20px;
   background-color: #ddd;

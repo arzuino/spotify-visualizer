@@ -28,3 +28,5 @@ node_modules/
 *.sln
 debug.log
 npm-debug.log
+.env
+lib/Montserrat.woff2

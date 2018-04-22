@@ -1,83 +1,120 @@
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Montserrat-Regular'), url(Montserrat.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat-Regular'), url(Montserrat.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 body {
-  text-align: center;
-  background: #272727;
-  overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 40px;
-  color: #fff;
-  margin: 0;
-  padding 0;
+    text-align: center;
+    background: #272727;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 #loading {
-  margin-top: calc(50vh - 21px);
+    margin-top: calc(50vh - 21px);
 }
 
 #background {
-  position: absolute;
-  object-fit: cover;
-  left: -20px;
-  top: -20px;
-  width: calc(100vw + 40px);
-  height: calc(100vh + 40px);
-  -webkit-filter: blur(20px) brightness(35%);
-  overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+    left: -20px;
+    top: -20px;
+    width: calc(100vw + 40px);
+    height: calc(100vh + 40px);
+    -webkit-filter: blur(20px) brightness(35%);
+    overflow: hidden;
 }
 
 #cover {
-  position: absolute;
-  left: calc(50vw - 320px);
-  top: calc(50vh - 320px);
-  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  visibility: hidden;
+    position: absolute;
+    left: calc(50vw - 320px);
+    top: calc(50vh - 320px);
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
 }
 
 * {
-  cursor: none;
+    cursor: none;
+}
+
+#lyrics_wrapper {
+    position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0; /* remove scrollbar space */
+    background: transparent; /* optional: just make scrollbar invisible */
+}
+
+#lyrics_wrapper > .fade-in, #lyrics_wrapper > .fade-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25vh;
+    background: linear-gradient(to top, transparent 0%, #181818 calc(100% - 10px));
+    pointer-events: none;
+}
+
+#lyrics_wrapper > .fade-out {
+    top: auto;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, #181818 calc(100% - 10px));
+}
+
+#lyrics {
+    overflow-y: hidden;
+    text-align: center;
 }
 
 #track-info {
-  position: absolute;
-  bottom: 7vh;
-  width: 100vw;
-  text-align: center;
-  visibility: hidden;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    overflow: hidden;
+    bottom: 7vh;
+    width: 100vw;
+    text-align: center;
+    visibility: hidden;
 }
 
-#track-info>#artist{
-  color: #CECECE;
+#track-info > #artist {
+    color: #CECECE;
 }
 
-#track-info>#title {
-  font-size: 50px;
-  margin-bottom: 6px;
+#track-info > #title {
+    font-size: 50px;
+    margin-bottom: 6px;
 }
 
 #progressBarParent {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    visibility: hidden;
 }
 
 #progressBar {
-  width: 0%;
-  height: 20px;
-  background-color: #ffffff;
+    width: 0;
+    height: 20px;
+    background-color: #ffffff;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+    50% {
+        opacity: 0;
+    }
 }

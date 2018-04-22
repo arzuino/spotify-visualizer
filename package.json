@@ -1,22 +1,27 @@
 {
-  "name": "spotispy",
-  "version": "0.0.1",
+  "name": "spotispy-mod",
+  "version": "1.0.0",
   "description": "Fullscreen Spotify album art",
   "main": "lib/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron lib/main.js"
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "Tianyi Ma <tn.ma@outlook.com>",
   "license": "GPL-2.0",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/l3d00m/spotispy.git"
   },
   "dependencies": {
     "dotenv": "^5.0.1",
+    "electron": "^1.8.4",
     "electron-localshortcut": "^0.6.1",
-    "jquery": "^2.2.1",
+    "jsdom": "^9.8.3",
     "request": "^2.81.0",
+    "scroll": "^2.0.3",
     "spotify-web-api-node": "^3.0.0"
   }
 }

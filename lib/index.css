@@ -36,10 +36,10 @@ body {
 
 #cover {
     position: absolute;
-    left: calc(50vw - 25vh);
-    top: calc(15vh);
+    left: calc(50vw - 30vh);
+    top: calc(10vh);
     box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 50vh;
+    height: 60vh;
 }
 
 * {
@@ -58,7 +58,7 @@ body {
 
 #track-info > #title {
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
 }
 
 #progressBarParent {
@@ -69,7 +69,8 @@ body {
 
 #progressBar {
     width: 0;
-    height: 20px;
+    height: 3vh;
+    transition: width 1s linear;
     background-color: #ffffff;
 }
 

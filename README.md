@@ -32,7 +32,7 @@ _Due to limitations in the Spotify API, the max album art size is 600x600._
     
 Create a spotify app [here](https://developer.spotify.com/my-applications/) and replace `example-client-id` with the client id and `example-client-secret` with the client secret.
 
-Generate a oauth refresh token either as described [in their api docs](https://beta.developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow) or use this handy tool: https://grant.outofindex.com/spotify, but don't forget to paste your above client id and secret into the (optional) app section there.  
+Generate a oauth refresh token either as described [in their api docs](https://beta.developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow) or use this handy tool: https://grant.outofindex.com/spotify, but don't forget to paste your above client id and secret into the (optional) app section there. If you decide to use the tool, pay attention to [#2](https://github.com/l3d00m/spotispy/issues/2), some scopes are missing otherwise.  
 Replace `example-refresh-token` with the generated token.
 
 ### Multiple monitors?

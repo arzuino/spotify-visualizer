@@ -19,6 +19,11 @@ body {
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 #loading {
     margin-top: calc(50vh - 21px);
 }
@@ -64,7 +69,7 @@ body {
 #progressBarParent {
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    min-width: 100%; 
 }
 
 #progressBar {

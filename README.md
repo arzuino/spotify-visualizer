@@ -21,7 +21,7 @@ The visuals (CSS) were kept mostly as is because they were looking great, especi
 2.  Install dependencies with `npm install`
 3.  Create a file called `.env` in the project root with the secrets (see below)
 4.  Run with `npm start`
-5.  Optional: Download the [Montserrat font from here](https://github.com/JulietaUla/Montserrat/raw/master/fonts/webfonts/Montserrat-Regular.woff2), rename it to Montserrat.woff2 and put it in the lib directory.
+5.  Optional: Download the [Montserrat font from here](https://github.com/JulietaUla/Montserrat/raw/master/fonts/webfonts/Montserrat-Regular.woff2) and put it in the lib directory.
 
 ### .env secrets
     CLIENT_ID=example-client-id
@@ -40,4 +40,4 @@ Alternatively you can use the Spotify API directly as described [in their api do
 
 ### Multiple monitors?
 
-You can switch between your displays with `Cmd+Shift+Arrow` or `Ctrl+Shift+Arrow` on Windows (function untested in this fork).
+You can switch between your displays with `Cmd+Shift+Right` or `Ctrl+Shift+Right` on Windows.

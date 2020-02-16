@@ -2,7 +2,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    src: local('Montserrat-Regular'), url(Montserrat.woff2) format('woff2');
+    src: local('Montserrat-Regular'), url(Montserrat-Regular.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -42,7 +42,7 @@ html, body {
 #cover {
     position: absolute;
     left: calc(50vw - 30vh);
-    top: calc(10vh);
+    top: calc(7vh);
     box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 60vh;
 }
@@ -53,7 +53,7 @@ html, body {
 
 #track-info {
     position: absolute;
-    bottom: 7vh;
+    bottom: 10vh;
     width: 100vw;
 }
 
@@ -62,7 +62,7 @@ html, body {
 }
 
 #track-info > #title {
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 2vh;
 }
 
@@ -73,10 +73,11 @@ html, body {
 }
 
 #progressBar {
+    margin-left: 0;
     width: 0;
     height: 3vh;
-    transition: width 1s linear;
     background-color: #ffffff;
+    will-change: width, opacity, transform;
 }
 
 @keyframes blinker {

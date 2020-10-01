@@ -42,3 +42,16 @@ Alternatively you can use the Spotify API directly as described [in their api do
 
 You can switch between your displays with `Ctrl+Shift+Right`.
 You can also change the default monitor in `lib/main.js` on line number `9` - keep in mind that numbers start at 0
+
+### Customization
+
+**Default Monitor** Line `9` in `lib/main.js`
+**Blur and Brightness of Background** Line `38` in `lib/index.css`
+
+**Track Font Size** Line `16` in `lib/index.css`
+**Track Text Color** Line `17` in `lib/index.css`
+
+**Artist Text Color** Line `61` in `lib/index.css`
+
+**Progress Bar Height** Line `78` in `lib/index.css`
+**Progress Bar Color** Line `79` in `lib/index.css`

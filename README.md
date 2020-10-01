@@ -46,12 +46,15 @@ You can also change the default monitor in `lib/main.js` on line number `9` - ke
 ## Customization
 
 **Default Monitor** Line `9` in `lib/main.js`
+
 **Blur and Brightness of Background** Line `38` in `lib/index.css`
 
 **Track Font Size** Line `16` in `lib/index.css`
+
 **Track Text Color** Line `17` in `lib/index.css`
 
 **Artist Text Color** Line `61` in `lib/index.css`
 
 **Progress Bar Height** Line `78` in `lib/index.css`
+
 **Progress Bar Color** Line `79` in `lib/index.css`

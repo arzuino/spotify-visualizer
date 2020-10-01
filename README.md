@@ -47,6 +47,8 @@ You can also change the default monitor in `lib/main.js` on line number `9` - ke
 
 **Default Monitor** Line `9` in `lib/main.js`
 
+**Fullscreen** Lines `44` and `55` in `lib/main.js`
+
 **Blur and Brightness of Background** Line `38` in `lib/index.css`
 
 **Track Font Size** Line `16` in `lib/index.css`

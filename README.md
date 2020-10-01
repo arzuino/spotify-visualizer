@@ -1,6 +1,6 @@
 # Spotify Visualizer
 
-Visualize the current playing Spotify track with the album art using the [web API](https://developer.spotify.com/web-api/).
+Visualize the current playing Spotify track with the album art using the [web API](https://developer.spotify.com/documentation/web-api/).
 
 This is a fork of [spotifiy-visualizer](https://github.com/l3d00m/spotify-visualizer) by l3d00m. This fork changes the following:
 

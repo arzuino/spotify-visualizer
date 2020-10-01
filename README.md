@@ -9,6 +9,7 @@ This is a fork of [spotifiy-visualizer](https://github.com/l3d00m/spotify-visual
 - Font is default to Monsterrat.
 - Progress bar is light blue.
 - Progress bar is 3x smaller giving it a better look.
+- Better Documentation.
 
 ## How it looks like
 <p align="center">

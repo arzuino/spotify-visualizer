@@ -38,7 +38,7 @@ This is a fork of [spotifiy-visualizer](https://github.com/l3d00m/spotify-visual
 
 Alternatively you can use the Spotify API directly as described [in their api docs](https://beta.developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow), but this is needlessly complicated.
 
-## Multiple monitors?
+### Multiple monitors?
 
 You can switch between your displays with `Ctrl+Shift+Right`.
 You can also change the default monitor in `lib/main.js` on line number `9` - keep in mind that numbers start at 0

@@ -14,7 +14,7 @@ body {
     text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
     font-weight: 800;
     font-size: 40px;
-    color: #fff;
+    color: #a3a3a3;
     margin: 0;
     padding: 0;
 }
@@ -35,7 +35,7 @@ html, body {
     top: -20px;
     width: calc(100vw + 40px);
     height: calc(100vh + 40px);
-    -webkit-filter: blur(20px) brightness(35%);
+    -webkit-filter: blur(15px) brightness(10%);
     overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ html, body {
 }
 
 #track-info > #artist {
-    color: #CECECE;
+    color: #828282
 }
 
 #track-info > #title {
@@ -75,8 +75,8 @@ html, body {
 #progressBar {
     margin-left: 0;
     width: 0;
-    height: 3vh;
-    background-color: #ffffff;
+    height: 1vh;
+    background-color: #00b3db;
     will-change: width, opacity, transform;
 }
 

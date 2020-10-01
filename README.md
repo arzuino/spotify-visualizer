@@ -20,8 +20,8 @@ This is a fork of the unmaintained [spotispy](https://github.com/tma02/spotispy)
 1.  Clone the repo with `git clone https://github.com/l3d00m/spotify-visualizer.git`
 2.  Install dependencies with `npm install`
 3.  Create a file called `.env` in the project root with the secrets (see below)
-4.  Run with `npm start`
-5.  Optional: Download the [Montserrat font from here](https://github.com/JulietaUla/Montserrat/raw/master/fonts/webfonts/Montserrat-Regular.woff2) and put it in the lib directory.
+4.  Optional: if you want the start.bat to work, change the first line with the main-directory in it.
+5.  Run with `npm start` or start.bat
 
 ### .env secrets
     CLIENT_ID=example-client-id

@@ -2,13 +2,13 @@
 
 Visualize the current playing Spotify track with the album art using the [web API](https://developer.spotify.com/web-api/).
 
-This is a fork of the unmaintained [spotispy](https://github.com/tma02/spotispy) repository. This fork changes the following:
+This is a fork of [spotifiy-visualizer](https://github.com/l3d00m/spotify-visualizer) by l3d00m. This fork changes the following:
 
--   Use the spotify web API through [spotify-web-api-node](https://www.npmjs.com/package/spotify-web-api-node) instead of scraping Spotify (which might get your account banned and is more unstable)
--   Smooth progress bar at the bottom
--   Various design tweaks
--   Album name is no longer displayed because it's often included on the cover art anyways
--   You now have to generate the oauth refresh token on your own (see below), which makes the code easier to maintain
+- Background is darker and less bright.
+- Text color is nicer.
+- Font is default to Monsterrat.
+- Progress bar is light blue.
+- Progress bar is 3x smaller giving it a better look.
 
 ## How it looks like
 <p align="center">
